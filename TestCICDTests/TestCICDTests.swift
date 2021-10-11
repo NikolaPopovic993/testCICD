@@ -16,7 +16,7 @@ class TestCICDTests: XCTestCase {
         viewModel.secontNumber = "6"
         viewModel.addNumbers()
         
-        XCTAssertEqual(viewModel.resultNumber, "7")
+        XCTAssertEqual(viewModel.resultNumber, "9")
     }
 
 }
