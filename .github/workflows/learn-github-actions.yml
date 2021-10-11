@@ -7,11 +7,11 @@ on:
 jobs:
   test:
     name: Testing Swift Package and iOS app
-    runs-on: macOS-10.15
+    runs-on: macOS-11
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
-      - name: Force XCode 12.5
-        run: sudo xcode-select -switch /Applications/Xcode_12.5.app
+      - name: Force XCode 12.5.1
+        run: sudo xcode-select -switch /Applications/Xcode_12.5.1.app
       - name: Testing iOS app
         run: exec ./.github/scripts/test_app.sh
