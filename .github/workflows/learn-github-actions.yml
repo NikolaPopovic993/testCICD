@@ -7,7 +7,7 @@ on:
 jobs:
   test:
     name: Testing Swift Package and iOS app
-    runs-on: macos-11.2.1
+    runs-on: macos-11.3.1
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
