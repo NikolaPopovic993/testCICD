@@ -14,4 +14,4 @@ jobs:
       - name: Force XCode 12.5.1
         run: sudo xcode-select -switch /Applications/Xcode_12.5.1.app
       - name: Testing iOS app
-        run: exec ./.github/scripts/test_app.sh
+        run: exec sudo /Users/nikola/Documents/Projects\ 😎/Test\ Projects/TestCICD/.github/scripts/test_app.sh 
